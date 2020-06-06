@@ -1,0 +1,213 @@
+/* General Layout */
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    color: #66fcf1;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #c5c6c7;
+}
+
+.top-nav ul {
+    font-size: 20px;
+    width: 101%;
+    text-align: center;
+    list-style: none;
+    padding: 0px 0px 0px 0px;
+    display: inline-block;
+    bottom: 0;
+    margin: 0px 0px 0px 0px;
+    background-color: #0b0c10;
+    overflow: hidden;
+    position: fixed;
+    border-top: 3px solid #45a29e;
+}
+
+.container-projects .top-nav ul {
+    font-size: 20px;
+    width: 101%;
+    text-align: center;
+    list-style: none;
+    padding: 0px 0px 0px 0px;
+    display: inline-block;
+    bottom: 0;
+    margin: 0px 0px 0px 0px;
+    background-color: rgba(0, 0, 0, 0.815);
+    overflow: hidden;
+    position: fixed;
+    border-top: 3px solid #45a29e;
+    margin-left: -51%;
+}
+
+.top-nav li {
+    font-family: Garamond, serif;
+    color: #66fcf1;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: inline-block;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding: 5px 1.5em 5px 1.5em;
+    border-right: 1px solid #c5c6c7;
+    border-left: 1px solid #c5c6c7;
+}
+
+.top-nav a {
+    color: #c5c6c7;
+    text-decoration: none none none none;
+}
+
+.top-nav a:hover {
+    color: #0b0c10;
+}
+
+.top-nav li:hover {
+    background-color: #c5c6c7;
+    color: #0b0c10;
+}
+
+.top-nav li:active {
+    background-color: rgb(216, 214, 214);
+    box-shadow: none;
+}
+
+/* Landing Page */
+
+body {
+    background-color: #1f2833;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: url(landing-page-updated.gif);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.container h1 {
+    color: #66fcf1;
+    display: inline-block;
+    top: 50%;
+    width: 100%;
+    font-size: 72px;
+}
+
+.container p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: white;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+
+/* Projects Page */
+
+.container-projects h1 {
+    font-size: 72px;
+}
+
+#projects-title {
+    text-align: center;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+}
+
+.column1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 90%;
+    margin: 0px 0px 0px 0px;
+    text-align: justify;
+}
+
+.column1 iframe {
+    display: block;
+    margin: auto;
+}
+
+.column2 {
+    display: inline;
+    width: 50%;
+    padding: 10px;
+    height: 90%;
+    margin: 0px 0px 0px 0px;
+    text-align: justify;
+}
+
+.column2 iframe {
+    display: block;
+    margin: auto;
+}
+
+
+.container-projects {
+    margin-left: 0%;
+}
+
+.container-projects h2 {
+    text-align: center;
+}
+
+.container-projects p {
+    padding-left: 10%;
+    padding-right: 10%;    
+    color: #c5c6c7;
+}
+
+/* Bio */
+
+.container-bio-text::after {
+    content: "";
+    clear: both;
+}
+
+.container-bio-text {
+    height: 90%;
+}
+
+.text-bio {
+    max-height: 90%;
+    margin-right: 0%;
+    width: 50%;
+    float: left;
+}
+
+.text-bio h1 {
+    font-size: 72px;
+}
+.text-bio p {
+    color: #c5c6c7
+}
+
+.picutre {
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    padding: 10% 0px 0px 0px;
+    align-items: center;
+}
+.picture #pic-of-me {
+    max-width: 40%;
+    height: 70%;
+    padding: 10% 5% 0px 10%;
+}
+
+/* Resume */
+
+.resume {
+    font-size: 42px;
+    text-align: center;
+}
